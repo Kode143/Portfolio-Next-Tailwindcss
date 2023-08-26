@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
+import profilePic from '../../public/images/profile/art2.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
@@ -19,7 +20,7 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className='w-full flex items-center text-dark  xs:pt-4 dark:text-light'>
-      <Layout className='pt-0 md:pt-5 sm:pt-2 '>
+      <Layout className='pt-4 md:pt-5 sm:pt-2 '>
          <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full xs:w-full'>
             <ProfileImage />
