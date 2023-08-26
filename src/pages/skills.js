@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import {motion} from 'framer-motion'
-import Layout from '@/components/Layout'
+import Layout from '../components/Layout'
 import Head from 'next/head'
-import Experience from '@/components/Experience'
-import AnimatedText from '@/components/AnimatedText'
-import TransitionEffect from '@/components/TransitionEffect'
-import HireMe from '@/components/HireMe'
+import Experience from '../components/Experience'
+import AnimatedText from '../components/AnimatedText'
+import TransitionEffect from '../components/TransitionEffect'
+import HireMe from '../components/HireMe'
 
 const Skill = ({name, x, y}) => {
 

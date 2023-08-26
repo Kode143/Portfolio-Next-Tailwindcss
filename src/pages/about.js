@@ -1,12 +1,12 @@
-import AnimatedText from '@/components/AnimatedText'
-import Layout from '@/components/Layout'
+import AnimatedText from '../components/AnimatedText'
+import Layout from '../components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useRef, useEffect } from 'react'
 import profilePic from '../../public/images/profile/kode.jpg'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
-import TransitionEffect from '@/components/TransitionEffect'
-import HireMe from '@/components/HireMe'
+import TransitionEffect from '../components/TransitionEffect'
+import HireMe from '../components/HireMe'
 
 
 

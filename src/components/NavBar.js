@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import  { FacebookIcon, TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons'
 import {motion} from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
-import HireMe from './HireMe'
+
 
 
 const CustomLink = ({href, title, className=''})=> {
