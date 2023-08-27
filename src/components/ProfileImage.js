@@ -9,7 +9,7 @@ const Icons = ({ icon, x, y }) => {
   return (
     <motion.div
       className='flex items-center justify-center 
-       cursor-pointer absolute
+       cursor-pointer absolute lg:ps-6 
        xs:flex xs:justify-center xs:px-0 xs:py-0 xs:bg-transparent xs:dark:bg-transparent
       '
       whileHover={{ scale: 1.08 }}
@@ -42,7 +42,7 @@ const ProfileImage = () => {
 
      {icon:<NodeIcon />, x:'0vw', y:'-45vw'},
     { icon:<PhpIcon />, x:'-27vw', y:'-15vw' },
-    { icon:<CodeIcon />, x:'0vw', y:'16vw' },
+    { icon:<CodeIcon />, x:'0vw', y:'14vw' },
     { icon:<ShopIcon />, x:'27vw', y:'-15vw' },
     { icon:<ReactIcon />, x:'23vw', y:'-35vw' },
     { icon:<GitIcon />, x:'30vw', y:'5vw' },
