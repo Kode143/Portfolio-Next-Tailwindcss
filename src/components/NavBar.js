@@ -68,7 +68,7 @@ const NavBar = () => {
 <button
   className='flex-col justify-center items-center hidden lg:flex z-10'
   onClick={handleClick}
-  aria-label='Custom Mobile Link'
+  aria-label="Descriptive Label"
 >
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
@@ -90,6 +90,7 @@ const NavBar = () => {
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           className='w-6 mr-3'
+          aria-label='Visit Facebook Profile'
        >
             <FacebookIcon/>
        </motion.a>
@@ -97,6 +98,7 @@ const NavBar = () => {
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 mx-3'
+        aria-label='Visit Twitter Profile'
         >
             <TwitterIcon/>
             </motion.a>
@@ -104,6 +106,7 @@ const NavBar = () => {
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 mx-3'
+        aria-label='Visit Github Profile'
         >
             <GithubIcon/>
         </motion.a>
@@ -111,6 +114,7 @@ const NavBar = () => {
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 mx-3'
+        aria-label='Visit LinkedIn Profile'
         >
             <LinkedInIcon/>
         </motion.a>
@@ -157,28 +161,34 @@ const NavBar = () => {
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           className='w-6 mr-3 sm:mx-1'
+          aria-label='Visit Facebook Profile'
        >
             <FacebookIcon/>
+
        </motion.a>
         <motion.a href='https://www.twitter.com' target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 mx-3 sm:mx-1'
+        aria-label='Visit Twitter Profile'
         >
             <TwitterIcon/>
+
             </motion.a>
         <motion.a href='https://www.github.com' target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+        aria-label='Visit Github Profile'
         >
             <GithubIcon/>
+
         </motion.a>
         <motion.a href='https://www.linkedin.com/in/bhuwan-shrestha-32a4441bb/' target={"_blank"}
         className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
-        
+         aria-label='Visit LinkedIn Profile'
         >
             <LinkedInIcon/>
         </motion.a>
