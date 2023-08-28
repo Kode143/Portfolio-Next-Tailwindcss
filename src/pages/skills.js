@@ -71,13 +71,13 @@ const Skills = () => {
 <Skill name='HTML' x={isMobile ? '0vw' : '0vw'} y={isMobile ? '45vw' : '24vw'} />
 <Skill name='CSS' x={isMobile ? '0vw' : '0vw'} y={isMobile ? '-16vw' : '-7vw'} />
 <Skill name='Javascript'  x={isMobile ? '-25vw' : '-15vw'} y={isMobile ? '-20vw' : '-10vw'} />
-<Skill name='ReactJS'  x={isMobile ? '0vw' : '0vw'} y={isMobile ? '-33vw' : '-15vw'} />
+<Skill name='ReactJS'  x={isMobile ? '0vw' : '0vw'} y={isMobile ? '-27vw' : '-15vw'} />
 <Skill name='NextJS' x={isMobile ? '0vw' : '0vw'} y={isMobile ? '18vw' : '8vw'} />
 <Skill name='GatsbyJS'  x={isMobile ? '31vw' : '31vw'} y={isMobile ? '0vw' : '0vw'}/>
 <Skill name='Figma' x={isMobile ? '-25vw' : '-17vw'} y={isMobile ? '18vw' : '10vw'} />
 <Skill name='firebase' x={isMobile ? '28vw' : '16vw'} y={isMobile ? '-20vw' : '-10vw'} />
 <Skill name='Tilwind CSS'  x={isMobile ? '0vw' : '0vw'} y={isMobile ? '30vw' : '15vw'} />
-<Skill name='Web Design'  x={isMobile ? '0vw' : '0'} y={isMobile ? '-50vw' : '-23vw'} />
+<Skill name='Web Design'  x={isMobile ? '0vw' : '0'} y={isMobile ? '-40vw' : '-23vw'} />
 <Skill name='Github'  x={isMobile ? '-33vw' : '-33vw'} y={isMobile ? '0vw' : '0vw'} />
 <Skill name='UI/UX' x={isMobile ? '25vw' : '20vw'} y={isMobile ? '18vw' : '10vw'} />
 
