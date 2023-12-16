@@ -5,7 +5,8 @@ import AnimatedText from '../components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '../components/Icons'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/portfolio.png'
+import project2 from '../../public/images/projects/ecommerce.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '../components/TransitionEffect'
 import HireMe from '../components/HireMe'
@@ -109,13 +110,14 @@ const projects = () => {
        <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
        <div className='col-span-12'>
          <FeaturedProject 
-         title='Crypto Screener Application'
+         title='Portfolio-Using Next.js and famer motion'
          img={ project1}
-         summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-         It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-         local currency.  '
+         summary='Built an engaging and dynamic portfolio website using Next.js, 
+         a powerful React framework, coupled with the seamless animation capabilities of Framer Motion.
+          The combination of Next.js and Framer Motion not only ensures a smooth and responsive user experience but also adds 
+          a visually captivating touch to showcase my skills, projects, and professional journey.  '
          link='/'
-         github='/'
+         github='https://github.com/Kode143/Portfolio-Next-Tailwindcss'
          type='Featured Project'
          />
 
@@ -126,7 +128,7 @@ const projects = () => {
 
        </div>
        
-       <div className='col-span-6 sm:col-span-12'>
+       {/* <div className='col-span-6 sm:col-span-12'>
        <Project 
          title='Crypto Screener Application'
          img={ project1}
@@ -150,20 +152,20 @@ const projects = () => {
          github='/'
          type='Featured Project'
          />
-       </div>
+       </div> */}
        <div className='col-span-12 sm:col-span-12'>
        <FeaturedProject 
          title='Crypto Screener Application'
-         img={ project1}
+         img={ project2}
          summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
          local currency.  '
-         link='/'
-         github='/'
+         link='https://github.com/Kode143/ecommerce'
+         github='https://github.com/Kode143/ecommerce'
          type='Featured Project'
          />
        </div>
-       <div className='col-span-6 sm:col-span-12'>
+       {/* <div className='col-span-6 sm:col-span-12'>
        <Project 
          title='Crypto Screener Application'
          img={ project1}
@@ -187,7 +189,7 @@ const projects = () => {
          github='/'
          type='Featured Project'
          />   
-       </div>
+       </div> */}
 
        </div>
 
