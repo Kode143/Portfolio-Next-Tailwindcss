@@ -156,11 +156,13 @@ const projects = () => {
        </div> */}
        <div className='col-span-12 sm:col-span-12'>
        <FeaturedProject 
-         title='Crypto Screener Application'
+         title='Ecommerce Admin'
          img={ project2}
-         summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-         It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-         local currency.  '
+         summary='I developed e-commerce webpage with separate admin and user interfaces using React.js,
+          MongoDB, and Tailwind CSS. The front-end is built with React.js, providing a responsive and intuitive user experience, 
+          while the back-end is powered by MongoDB for data storage. The use of Tailwind CSS ensures a sleek and modern design,
+           enhancing the overall aesthetics of the e-commerce platform. The admin page allows easy management of products and orders,
+            providing a seamless administrative experience.  '
          link='https://github.com/Kode143/ecommerce'
          github='https://github.com/Kode143/ecommerce'
          type='Featured Project'
