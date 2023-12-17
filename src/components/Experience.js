@@ -71,7 +71,7 @@ work="Responsibilities include teaching programming languages, software applicat
  assist students with projects, provide technical support, and guide students in understanding technology's ethical and responsible use."
                 
                 />
-                                <Details 
+                                {/* <Details 
                 
                 position='Software Engineer' company='Google'
                 companyLink='www.google.com'
@@ -80,7 +80,7 @@ work="Worked on a team responsible for developing new features for Google's
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
                 
-                />
+                /> */}
                 </ul>
             </div>
     </div>
