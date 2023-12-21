@@ -5,11 +5,15 @@ import { AnimatePresence } from 'framer-motion';
 import { Montserrat } from 'next/font/google'
 import Head from "next/head"
 import { useRouter } from 'next/router';
+import { Plogo } from '@/components/Icons';
+import { convertReactComponentToSVG } from '../utils/utils';
  
  const montserrat = Montserrat({
   subsets : ["latin"],
   variable: "--font-mont",
  });
+
+ const faviconDataUrl = convertReactComponentToSVG(<Plogo />);
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -18,7 +22,8 @@ export default function App({ Component, pageProps }) {
     <Head>
       
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href={faviconDataUrl} type="image/svg+xml" />
+        
     </Head>
     <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
     <NavBar  />

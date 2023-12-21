@@ -50,10 +50,6 @@ const Skills = () => {
      <Head>
     <title>Bhuwan Shrestha | Skills</title>
     <meta name='description' content='any description' />
-    <meta name="google-adsense-account" content="ca-pub-8912646240167776"/>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8912646240167776"
-     crossorigin="anonymous"></script>
-
  </Head>
 <TransitionEffect />
 

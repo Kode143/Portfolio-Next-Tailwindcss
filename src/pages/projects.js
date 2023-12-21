@@ -97,9 +97,7 @@ const projects = () => {
    <Head>
     <title>Bhuwan Shrestha | Projects</title>
     <meta name='description' content='any description' />
-    <meta name="google-adsense-account" content="ca-pub-8912646240167776"/>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8912646240167776"
-     crossorigin="anonymous"></script>
+
  </Head>
  <TransitionEffect />
  <main className='w-full h-full mb-16 flex flex-col items-center justify-center dark:text-light'>
